@@ -1,8 +1,7 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
-// Replace 'your-username' and 'your-repo-name' accordingly
 export default defineConfig({
-  base: '/ToDO-App-React/', 
+  base: '/ToDo_App_React/',  // 👈 MUST match your repo name
   plugins: [react()],
-});
+})
